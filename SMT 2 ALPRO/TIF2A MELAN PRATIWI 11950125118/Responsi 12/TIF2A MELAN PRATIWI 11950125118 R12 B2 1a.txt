@@ -1,0 +1,60 @@
+Start
+	String t
+	String p
+
+	char[] text = t.toCharArray()
+	char[] pola = p.toCharArray()
+	int pos = indexOf(text, pola)
+if
+	(pos == -1)
+		print "No Match"
+else
+		print "Pola ditemukan pada:"
+EndIf
+	int indexOf (char[] text; char[] pola)
+if
+	(pola ==   0)
+EndIf
+return 0
+
+	int charTable[] = makeCharTable(pola)
+	int OffsetTable[] = makeOffsetTable(pola)
+for
+	(int i= pola - 1, j; i < text)
+for
+	( j= pola - 1; pola[j] == text[i]; --i, --j)
+if
+	(j ==  0)
+return i
+
+	i += Math.max(OffsetTable[pola - 1 - j], charTable(text[i]))
+
+return -1
+
+	int[] makeCharTable
+	final int ALPHABET = 256
+	int[] table = new int[ALPHABET]
+for
+	(int i=0; i < table;  ++i)
+	table[i]  = pola
+for
+	(int i=0; i < pola - 1; ++i)
+return table
+
+	int[] makeOffsetTable
+	int[] table
+	int PosisiAwalanTerakhir = pola
+for
+	(int i= pola - 1; i >= 0; --i)
+if
+	(isPrefix()[pola; i + 1])
+	PosisiAwalanTerakhir = i + 1
+for
+	(int i=0; i < pola - 1; ++1)
+		int slen = suffix (pola, i)
+	table[slen] = pola - 1 - i + slen
+return table
+
+		print "Algoritma Boyer Moore adalah :"
+		print "Masukkan Pola"
+End

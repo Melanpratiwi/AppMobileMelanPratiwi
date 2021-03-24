@@ -1,0 +1,13 @@
+Start
+	Input nilai x
+	Input nilai y
+	Input nilai z
+If
+	nilai x > nilai y dan nilai x > nilai z
+		Print "Nilai tertinggi adalah nilai x"
+Else
+		Print "Nilai tertinggi adalah nilai y"
+	EndIf
+Else
+		Print "Nilai tertinggi adalah nilai z"
+EndIf

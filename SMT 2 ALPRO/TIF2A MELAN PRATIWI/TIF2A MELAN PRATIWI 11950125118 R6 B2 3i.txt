@@ -1,0 +1,23 @@
+Start
+	int[]angka = {82,12,41,38,19,26,9,48,20,55,8,32,3}
+	int total = 0
+
+	print "Nilai array adalah:"
+	
+	int indeks
+for
+	indeks = 0; indeks < angka; indeks++
+		print (angka[indeks] + " ")
+
+	int selisihangka = angka[0] - angka [1]
+for
+	(indeks=0; indeks < angka;indeks++)
+if
+	(indeks == angka - 1)
+else
+	selisihangka = angka[indeks] - angka [indeks + 1]
+
+	print "Selisih angka dengan angka lainnya adalah:"
+
+EndIf
+End

@@ -1,0 +1,23 @@
+Start
+	int besar = 0
+	int terbesar = 0
+
+for (int i =  0; i < arr.lenght; i++)
+	if ( besar < 0)
+		if ( terbesar < besar)
+return besar
+
+	for (int i = 1; i < arr.lenght; i++)
+	besar = Math.max(arr[i], besar + arr[i])
+           terbesar = Math.max(terbesar, besar)
+
+return terbesar
+
+	array[] = {3,16,12,-2,-5,7,-1,5}
+print ("Angka array terbesar adalah ")
+
+	negatif[] = {-8,-17,-4,-7,-10,-7,-78,-9}
+print ("Angka  terbesar dari array negatif adalah")
+
+Endif
+	

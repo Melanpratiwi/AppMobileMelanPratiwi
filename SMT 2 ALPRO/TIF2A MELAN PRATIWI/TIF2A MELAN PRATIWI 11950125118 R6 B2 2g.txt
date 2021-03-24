@@ -1,0 +1,4 @@
+1. Masukkan angka array (82,12,41,38,19,26,9,48,20,55,8,32,3)
+2. Masukkan indeks =0, indeks < angka
+3. Jika sisa bagi antara angka dibagi 5 adalah 0, maka output angka kelipatan 5  pada array akan tampil
+4. Jika tidak, maka proses akan menngulang dari awal

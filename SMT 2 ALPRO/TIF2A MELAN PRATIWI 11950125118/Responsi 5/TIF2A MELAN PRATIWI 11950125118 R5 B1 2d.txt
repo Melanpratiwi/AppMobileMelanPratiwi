@@ -1,0 +1,12 @@
+Start
+	Input angka 
+	Input variabel pembagi 
+	Tentukan pembagi <= angka / 2
+	Tentukan nilai sementara = 0
+	Tentukan pilihan bilangan prima tersebut true         atau false
+If
+	angka > 0 && angka != 1
+		Print "Angka tersebut adalah tidak bilangan prima"
+Else
+		Print "Angka tersebut adalah bilangan prima"
+EndIf 

@@ -1,0 +1,7 @@
+1. Masukkan angka
+2. Masukkan variabel pembaginya
+3. Menentukan bahwa pembagi harus lebih kecil dan sama dengan angka/2
+4. membuat nilai sementara = 0
+5. Menentukan bahwa bilangan prima tersebut true atau false
+6. Jika angka yang dimasukkan lebih besar dari 0 dan tidak sama dengan 1, maka angka tersebut adalah bilangan prima
+7. Jika tidak, maka angka tersebut tidak bilangan prima 

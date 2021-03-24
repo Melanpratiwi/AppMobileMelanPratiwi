@@ -1,0 +1,4 @@
+1. Masukkan angka array  (82,12,41,38,19,26,9,48,20,55,8,32,3)
+2. Masukkan indeks=0, indeks < angka
+3. Jika sisa bagi angka indeks dibagi 2 tidak sama dengan 0, maka angka ganjil akan tampil  pada output
+4. Jika tidak, proses akan mengulang dari awal

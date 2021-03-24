@@ -1,0 +1,9 @@
+Start
+	Input Nilai1
+	Input Nilai2
+If
+	Nilai1 > Nilai2
+		Print "Nilai Tertinggi adalah Nilai1"
+Else
+		Print "Nilai Tertinggi adalah nilai2"
+EndIf

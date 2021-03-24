@@ -1,0 +1,10 @@
+Start
+	Input Bilangan
+For
+	n <= bilangan
+	n = 3
+If
+	Bil % n = 0
+		Print "Bilangan adalah Pembagi Terkecil"
+
+EndIf

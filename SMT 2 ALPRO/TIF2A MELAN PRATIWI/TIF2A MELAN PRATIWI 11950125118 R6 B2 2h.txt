@@ -1,0 +1,6 @@
+1. Masukkan data
+2. Masukkan Jumlah angka = 0
+2. Masukkan indeks=0, indeks < data
+3. Cari jumlah angka array tersebut menggunakan rumus Jumlah angka += data indeks 
+4. Masukkan angka array (82,12,41,38,19,26,9,48,20,55,8,32,3)
+5. Maka output total jumlah angka array akan tampil 

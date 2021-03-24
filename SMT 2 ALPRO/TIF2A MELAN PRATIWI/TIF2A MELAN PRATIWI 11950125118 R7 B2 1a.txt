@@ -1,0 +1,21 @@
+Start
+	int x;
+	int y;
+	int z;
+	
+	print (Masukkan nilai x);
+	print (Masukkan nilai y);
+
+	Cari nilai z dengan menggunakan rumus z = y % x;
+
+do
+	Input persamaan nilai x = y;
+	Input persamaan nilai y = z;
+	Input rumus z = x % y;
+
+while 
+	Input ketentuan z != 0
+		print (Faktor Persekutuan Terbesar")
+EndIf
+	
+	

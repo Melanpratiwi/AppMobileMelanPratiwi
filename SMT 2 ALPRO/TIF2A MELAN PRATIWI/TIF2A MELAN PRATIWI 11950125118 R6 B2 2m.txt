@@ -1,0 +1,6 @@
+1. Masukkan angka array (82,12,41,38,19,26,9,48,20,55,8,32,3)
+2. Masukkan indeks=0, indeks < angka
+3. Cari selisih angka dengan rumus angka indeks - angka indeks +  1
+4. Cari total selisih mengggunakan rumus total + selisih angka
+4. Jika indeks = angka - 1, maka output total slisih angka  akan tampil
+5. Jika tidak, maka proses akan diulang dari awal

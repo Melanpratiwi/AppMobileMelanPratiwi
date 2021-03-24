@@ -1,0 +1,26 @@
+Start
+	int angka
+	boolean prima[]  = new boolean[angka+1]
+for
+	(int indeks=0; indeks < angka; indeks++)
+	prima[indeks] = true
+for
+	(int prim=2; prim*prim <= angka; prim++)
+if
+	(prim[prim] = true)
+EndIf
+
+for
+	(int indeks2= prim * 2; indeks2 <= angka; indeks2  += prim)
+
+for
+	(int indeks3=2;  indeks3 <= angka; indeks3++)
+if
+	(prima[indeks3] == true)
+		print (indeks3 + "  ")
+
+	int n = 30
+		print "Angka Prima berikut "
+		print "yang lebih kecil dari :"
+EndIf
+End

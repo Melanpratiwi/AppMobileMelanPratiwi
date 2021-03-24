@@ -1,0 +1,12 @@
+Start	
+	int[] data;
+	int Jumlahangka=0
+for
+	(int indeks=0; indeks < data; indeks++)
+	Jumlahangka += data[indeks]
+
+	print "Jumlah angka pada array  ini adalah:"
+
+	int angka[] = {82,12,41,38,19,26,9,48,20,55,8,32,3}
+	total(angka)
+End

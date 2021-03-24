@@ -1,0 +1,8 @@
+Start
+	int[] bil= {82,12,41,38,19,26,9,48,20,55,8,32,3}
+		print (bil)
+
+for
+	(int i=0;i < bil;i++)
+		print (bil[i] + " ")
+End

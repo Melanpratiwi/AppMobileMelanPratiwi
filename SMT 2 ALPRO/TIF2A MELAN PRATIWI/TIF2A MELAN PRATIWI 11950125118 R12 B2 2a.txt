@@ -1,0 +1,60 @@
+Start
+	Scanner x
+        String bilangan = x.next()
+        String target = x.next()
+        int result = KMP (bilangan, target)
+
+if 
+	(result == -1)
+            print "Tidak"
+else
+            print "Ya"
+
+    	String cari, String target
+
+        int[] failureTable = failureTable(target)
+        int targetPointer = 0
+        int cariPointer = 0
+
+EndIf
+while 
+	(cariPointer < cari.length())
+
+if 
+	(cari.charAt(cariPointer) == target.charAt(targetPointer))
+EndIf
+
+if 
+	(targetPointer == target.length())
+        int x = target.length() + 1
+
+return  cariPointer - x
+
+else if 
+	(targetPointer > 0)
+        targetPointer = failureTable[targetPointer]
+EndIf
+return -1
+ 	
+	String target
+        int[] table = new  int[target.length() + 1]
+        table[0] = -1
+        table[1] = 0
+
+        int pertama = 0
+        int kedua = 2
+
+while 
+	(kedua < table.length)
+if 
+	(target.charAt(kedua - 1) == target.charAt(pertama))
+	table[kedua] = pertama
+else if 
+	(pertama > 0)
+        pertama = table[pertama]
+else
+        table[kedua] = pertama;
+return table
+
+EndIf
+End

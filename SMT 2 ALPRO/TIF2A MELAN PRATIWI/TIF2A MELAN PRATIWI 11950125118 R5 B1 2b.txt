@@ -1,0 +1,6 @@
+1. Masukkan nilai x
+2. Masukkan nilai y
+3. Masukkan nilai z
+4. Jika nilai x lebih besar dari nilai y dan nilai x lebih besar dari nilai z, maka Nilai tertinggi adalah nilai x
+5. Jika tidak, maka nilai y harus lebih besar dari nilai x dan nilai y lebih besar dari nilai z, maka Nilai tertinggi adalah nilai z
+6. Jika tidak, maka Nilai tertinggi adalah nilai z

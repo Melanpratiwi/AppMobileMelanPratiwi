@@ -1,0 +1,24 @@
+Start
+	int angkaNew = (angka - 2) / 2
+	boolean bilangan[] = new boolean[angkaNew + 1]
+for
+	(int indeks=1; indeks <= angkaNew; indeks++)
+for
+	(int indeks2 = indeks; (indeks + indeks2 + 2 *  indeks * indeks2) <= angkaNew; indeks2++)
+	bilangan[indeks + indeks2 + 2 * indeks * indeks2] = true
+
+if
+	(angka > 2)
+		print (2 + " ")
+EndIf
+
+for
+	(int indeks3=1; indeks3 <=  angkaNew; indeks3++)
+if
+	(bilangan[indeks3] == false
+		print (2 * indeks3 + 1 +  " ")
+EndIf
+return -1
+
+	int n = 20
+End

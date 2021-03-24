@@ -1,0 +1,4 @@
+1. Masukkan angka array (82,12,41,38,19,26,9,48,20,55,8,32,3)
+2. Masukkan indeks=0, indeks < angka
+3. Jika pada angka array memiliki angka 2, maka output angka yg memiliki angka 2 akan  tampil
+4. Jika tidak, maka proses akan mengulang dari awal

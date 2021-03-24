@@ -1,0 +1,13 @@
+Start
+	int[]angka = {82,12,41,38,19,26,9,48,20,55,8,32,3}
+for
+	(int indeks = 0; indeks < angka; indeks++)
+
+	int indeks2 = indeks + 1
+	int indeks3 = angka[indeks2]
+if
+	(angka[indeks]  < indeks3)
+
+	print (angka[indeks2])
+EndIf
+End

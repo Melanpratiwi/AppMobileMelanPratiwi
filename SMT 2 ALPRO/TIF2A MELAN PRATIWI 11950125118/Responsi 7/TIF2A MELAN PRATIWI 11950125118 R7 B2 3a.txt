@@ -1,0 +1,16 @@
+Start
+	int x
+	int y
+
+return ( x > y ) ? x : y
+
+	string pertama   = melan
+	string kedua = dinda
+
+	char [] nama1 = pertama.toCharArray()
+	char [] nama2 =  kedua.toCharArray()
+	int A
+	int B
+
+	print "Length dari LCS ini adalah:"
+End

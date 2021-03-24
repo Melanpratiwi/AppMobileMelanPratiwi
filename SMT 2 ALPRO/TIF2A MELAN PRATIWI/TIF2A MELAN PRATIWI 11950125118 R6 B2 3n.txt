@@ -1,0 +1,20 @@
+Start
+	int[]angka = {82,12,41,38,19,26,9,48,20,55,8,32,3}
+
+	print "Nilai array adalah :"
+for
+	(int indeks=0; indeks < angka; indeks++)
+		print (angka[indeks] + " ")
+
+	int jumlah = 0
+for
+	(int indeks=0; indeks < angka; indeks++)
+for
+	(int array : angka)
+if
+	(angka[indeks] < angka)
+	jumlah = angka - angka[indeks]
+
+	print "Jumlah angka sebelum angka ini  adalah =  "
+EndIf
+End

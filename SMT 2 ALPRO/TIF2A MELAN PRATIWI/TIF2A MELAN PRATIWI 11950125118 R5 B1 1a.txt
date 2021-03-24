@@ -1,0 +1,4 @@
+1. Masukkan nilai1
+2. Masukkan nilai2
+3. Jika nilai1 lebih besar dari nilai2, maka nilai tertinggi adalah nilai1
+4. Jika tidak, maka nilai tertinggi adalah nilai2

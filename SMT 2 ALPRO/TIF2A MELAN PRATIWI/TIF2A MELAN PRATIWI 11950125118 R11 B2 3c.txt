@@ -1,0 +1,49 @@
+Start
+	int temp
+	int indeks[]
+	int x
+
+	boolean coctail  = true
+	int bilangan = 0, i
+	int angka = x - 1
+while
+	cocktail   = false
+for
+	(i = bilangan; i < angka;  i++)
+if
+	(indeks[i] > indeks  [i + 1])
+	
+	temp = indeks[i]
+	indeks[i] = indeks [i +  1]
+	indeks [i + 1] =  temp
+	cocktail = true
+EndIf
+
+if 
+	(!cocktail)
+break
+EndIf
+	cocktail  =  false
+for
+	(i = angka - 1;  i >=  bilangan; --i)
+if
+	(indeks[i] > indeks[i + 1])
+
+	temp = indeks[i]
+	indeks[i] = indeks [i + 1]
+	indeks [i + 1] = temp
+	cocktail = true
+
+EndIf
+
+	int arr[] = {82,12,41,38,19,26,9,48,20,55,8,32,3}, i
+
+	int n = arr
+	cocktail (arr, n)
+		print "Array setelah diurutkan menggunakan Cocktail adalah :"
+
+for
+	(i = 0; i < n; i++)
+		print (arr[i] +   " ")
+		print ()
+End

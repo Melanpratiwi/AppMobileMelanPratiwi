@@ -1,0 +1,5 @@
+1. Masukkan angka array (82,12,41,38,19,26,9,48,20,55,8,32,3)
+2. Masukkan angka yang ingin ditemukan
+3. Masukkan indeks = 0, indeks < angka
+4. Jika angka ingin ditemukan berada dalam inputan angka array, maka Angka ditemukan dan terletak di indeks array
+5. Jika tidak, maka angka tidak ditemukan pada indeks array, dan proses akan mengulang dari awal
